@@ -9,6 +9,7 @@
     "express": "^4.19.2"
   },
   "scripts": {
+    "dev": "nodemon server.js",
     "start": "node server.js"
   },
   "keywords": [
@@ -17,5 +18,8 @@
     "nodejs"
   ],
   "author": "https://github.com/virtualitems/",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
